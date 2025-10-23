@@ -1,0 +1,384 @@
+# Femwell - Git Ignore File
+
+# ==========================================
+# Operating System Files
+# ==========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+.nfs*
+
+# ==========================================
+# IDE & Editor Files
+# ==========================================
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# Cursor
+.cursor/
+.cursorrules
+
+# JetBrains IDEs (WebStorm, PyCharm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ==========================================
+# Environment & Configuration
+# ==========================================
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+*.env
+
+# Configuration files with secrets
+config.local.js
+config.local.json
+secrets.json
+credentials.json
+
+# ==========================================
+# Dependencies
+# ==========================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Python virtual environments
+venv/
+ENV/
+env/
+.venv
+.virtualenv
+
+# ==========================================
+# Build Outputs
+# ==========================================
+
+# Build directories
+/build
+/dist
+/.next
+/out
+/.cache
+/.parcel-cache
+/.nuxt
+/.output
+/.svelte-kit
+
+# Production builds
+*.min.js
+*.min.css
+bundle.js
+bundle.css
+
+# ==========================================
+# Logs & Databases
+# ==========================================
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+
+# ==========================================
+# Testing
+# ==========================================
+
+# Test coverage
+coverage/
+.nyc_output
+*.lcov
+
+# Test results
+test-results/
+junit.xml
+
+# ==========================================
+# Temporary Files
+# ==========================================
+
+# Temporary directories
+tmp/
+temp/
+.tmp/
+.cache/
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~.nib
+*.orig
+
+# ==========================================
+# AI & ML Specific
+# ==========================================
+
+# Model files (large)
+*.h5
+*.pb
+*.ckpt
+*.pth
+*.pt
+*.pkl
+*.pickle
+models/
+checkpoints/
+
+# Training data (if sensitive)
+data/training/
+data/raw/
+*.csv
+*.xlsx
+*.json
+
+# ==========================================
+# Medical & Sensitive Data
+# ==========================================
+
+# CRITICAL: Never commit sensitive health data
+/data/patient/
+/data/medical-records/
+/data/health-records/
+/data/pii/
+*.protected
+user-data/
+patient-data/
+ehr-data/
+
+# Research data with PII
+research/sensitive/
+survey-results/
+
+# ==========================================
+# Mobile & PWA Specific
+# ==========================================
+
+# React Native / Expo
+.expo/
+.expo-shared/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# Service worker cache
+sw.js
+workbox-*.js
+precache-manifest.*.js
+
+# ==========================================
+# Cloud & Deployment
+# ==========================================
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Kubernetes
+*.kubeconfig
+
+# AWS
+.aws/
+.elasticbeanstalk/
+
+# ==========================================
+# Documentation (Keep versioned docs)
+# ==========================================
+
+# Generated documentation
+docs/_build/
+site/
+
+# But keep these documentation files
+!docs/
+!*.md
+!README.md
+
+# ==========================================
+# Business & Legal (KEEP SOME, IGNORE OTHERS)
+# ==========================================
+
+# Financial records (sensitive)
+/financial/
+/accounting/
+invoices/
+*.xlsx
+
+# Legal documents with sensitive info
+/legal/confidential/
+/contracts/signed/
+
+# But keep templates and public documents
+!docs/templates/
+!docs/legal/templates/
+
+# ==========================================
+# BMAD Core (If using BMAD framework)
+# ==========================================
+
+# BMAD generated files (keep configuration)
+.ai/debug-log.md
+.ai/temp/
+.bmad-cache/
+
+# ==========================================
+# Miscellaneous
+# ==========================================
+
+# Certificates
+*.pem
+*.crt
+*.key
+*.cert
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Lock files (optional - uncomment if needed)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
