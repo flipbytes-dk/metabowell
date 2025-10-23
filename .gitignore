@@ -382,3 +382,6 @@ invoices/
 # yarn.lock
 # pnpm-lock.yaml
 
+.claude/
+.bmad-core/
+
