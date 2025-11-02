@@ -1,4 +1,4 @@
-# Femwell - Git Ignore File
+# MetaboWell - Git Ignore File
 
 # ==========================================
 # Operating System Files
@@ -384,4 +384,17 @@ invoices/
 
 .claude/
 .bmad-core/
+
+# ==========================================
+# MetaboWell Specific - KEEP THESE
+# ==========================================
+
+# Keep public assets (logo, images, etc.)
+!public/
+!public/**
+!*.png
+!*.jpg
+!*.jpeg
+!*.svg
+!*.ico
 
