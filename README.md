@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/logo.png" alt="MetaboWell Logo" width="200"/>
+  <img src="https://raw.githubusercontent.com/flipbytes-dk/metabowell/main/images/logo.png" alt="MetaboWell Logo" width="200"/>
   
   # MetaboWell
   
